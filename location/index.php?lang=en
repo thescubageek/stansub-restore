@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Stanley Submarines - Roatan, Honduras</title>
+<!-- style sheet -->
+<link rel="stylesheet" href="../general/template.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="../general/validator.js"></script>
+
+<!-- meta tags -->
+<meta name="author" content="Steve Craig - steve@thescubageek.com" />
+<meta name="description" content="Deep sea exploration aboard Karl Stanley's Idabel, the world's deepest tourest submarine, on Roatan, Honduras" />
+<meta name="keywords" content="karl stanley submarine roatan underwater deep sea aquatic life caribbean six gill shark chimera honduras exploration" />
+<!-- end meta tags -->
+</head>
+
+<body >
+	<div id="biggodeeper">GO DEEPER</div>
+	<div id="stanleysubs">stanleysubmarines.com</div>
+	<div id="menu">
+	<a href="../contact/index.php?lang=en">Contact Us</a><a href="../news/index.php?lang=en">News</a><a href="../videos/index.php?lang=en">Videos</a><a href="../photos/index.php?lang=en">Photos</a><a href="../faqs/index.php?lang=en">FAQs</a><a href="../expeditions/index.php?lang=en">Expeditions</a><a href="../terrain/index.php?lang=en">Terrain</a><a href="../life/index.php?lang=en">Aquatic Life</a><a href="../location/index.php?lang=en">Location</a><a href="../captain/index.php?lang=en">Captain</a><a href="../sub/index.php?lang=en">Submarine</a><a href="../main/index.php?lang=en">Home</a>	</div>
+
+	<div id="porthole">
+		<div id="porthole_overlay"></div>
+		<div id="depth_scale"></div>
+		<div id="porthole_frame"></div>
+	</div>
+
+	<div id="logo"><img src="../general/images/logo.gif" width="250" height="199" alt="Roatan Institute of Deepsea Exploration" border="0" /></div>
+		<div id="main">
+			<div id="body">
+
+<p class="title">The Location:<br />Roatan, Honduras</p>
+
+
+<p>Roatan lies about 40 miles (65 kilometers) off the northern coast of Honduras. Measuring approximately 37 miles (60 kilometers) from east to west and less than 4 miles (7 kilometers) across at its widest point, Roatan is the largest of the three main  islands that, along with Guanaja and Utila, comprise the majority of <i>Las  Islas de La Bahia</i> (The Bay Islands). These islands are joined by three  smaller islands to the east (Barbareta, Morat, and Helene) and the sixty-five  tiny keys of <i>Cayos Cochinos</i> (Hog Islands) to the south.</p>
+
+<p>The islands rest atop the underwater Bonacca Ridge, a mountainous culmination of eons of tectonic plate movement stemming from the Cayman Trench to the north. From its highest point near 270m/900ft elevation to the white-sand shores at sea level, the entire island rests atop an exposed ancient coral reef. The Cayman Trench is 25,200 feet (7680 meters) deep at its center; in comparison, the Grand Canyon is less than 6,000 feet (1800 meters) deep. Roatan's fringing coral reef system, which extends directly from the island's shoreline, forms a near-vertical wall for the first 2000 feet (610 meters) down. If the deep water were not so close to shore, the submersible would need a surface support ship for transportation and the operating costs would be prohibitive.</p>
+
+<p>Typical daytime temperatures hover in the mid-80's &deg;F (27-30 &deg;C) while nighttime temperatures stay in the upper 60's &deg;F (19-22 &deg;C).  Most of the year is spent during the dry season where brief refreshing tropical showers periodically interrupt otherwise sunny skies and crystal-clear waters.  Roatan's rainy season extends from mid-November to early February. The weather is more finicky during this time of year: rain and wind can persist for days only to suddenly give way to weeks of pristine sunny conditions.</p>
+
+<p>Coxen Hole, the municipal center and most densely populated  town in Roatan, is your most likely point of ingress to the island, as it is  home to the airport, cruise ship dock, and ferry dock. French Harbor is the island's main center of commerce, though historical Oak Ridge supports a bulk  of the commercial fishing industry. Punta Gorda, Paya Bay, and Santa Helena to the east maintain much of their unique cultural heritage. On the opposite end of Roatan, Sandy Bay, West End and West Bay form the island's tourist hub.</p>
+
+			</div>
+			<div id="footer" style="clear: both; padding-top: 5px;">
+				<hr />
+				<div id="footer_left">
+					Site design by <a href="http://www.thescubageek.com">TheScubaGeek.com</a>
+				</div>
+				
+				<div id="footer_right">
+					2005-2008 &copy; Roatan Institute of Deepsea Exploration
+				</div>				
+			</div>			
+	</div>
+
+</body>
+</html>

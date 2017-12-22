@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Stanley Submarines - Roatan, Honduras</title>
+<!-- style sheet -->
+<link rel="stylesheet" href="../general/template.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="../general/validator.js"></script>
+
+<!-- meta tags -->
+<meta name="author" content="Steve Craig - steve@thescubageek.com" />
+<meta name="description" content="Deep sea exploration aboard Karl Stanley's Idabel, the world's deepest tourest submarine, on Roatan, Honduras" />
+<meta name="keywords" content="karl stanley submarine roatan underwater deep sea aquatic life caribbean six gill shark chimera honduras exploration" />
+<!-- end meta tags -->
+</head>
+
+<body >
+	<div id="biggodeeper">GO DEEPER</div>
+	<div id="stanleysubs">stanleysubmarines.com</div>
+	<div id="menu">
+	<a href="../contact/index.php?lang=en">Contact Us</a><a href="../news/index.php?lang=en">News</a><a href="../videos/index.php?lang=en">Videos</a><a href="../photos/index.php?lang=en">Photos</a><a href="../faqs/index.php?lang=en">FAQs</a><a href="../expeditions/index.php?lang=en">Expeditions</a><a href="../terrain/index.php?lang=en">Terrain</a><a href="../life/index.php?lang=en">Aquatic Life</a><a href="../location/index.php?lang=en">Location</a><a href="../captain/index.php?lang=en">Captain</a><a href="../sub/index.php?lang=en">Submarine</a><a href="../main/index.php?lang=en">Home</a>	</div>
+
+	<div id="porthole">
+		<div id="porthole_overlay"></div>
+		<div id="depth_scale"></div>
+		<div id="porthole_frame"></div>
+	</div>
+
+	<div id="logo"><img src="../general/images/logo.gif" width="250" height="199" alt="Roatan Institute of Deepsea Exploration" border="0" /></div>
+		<div id="main">
+			<div id="body">
+<p align="center"><span class="title">Contact Us</span></p>
+<div><form name="form" method="post" action="phpFormMailer.php" id="contact">
+<table width="500" align="center" border="0" cellspacing="0" cellpadding="2" class="bodytable">
+<tr><th colspan="2" align="center">Your Information <span class="reqd"><b>(Fields in red are required)</b></span></th></tr>
+<script type="text/javascript" language="javascript"><!--
+var formvalidator = new Validator("form");
+//--></script>
+<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="firstname">First Name:</label></span></b></td>
+<td><input type="text" name="firstname" id="firstname" maxlength="32" size="32" value="" /></td>
+</tr>
+		<script language="javascript" type="text/javascript"><!--
+		if (formvalidator){
+			formvalidator.addValidation("firstname","req","Please enter First Name");
+		}
+		//--></script>
+		<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="lastname">Last Name:</label></span></b></td>
+<td><input type="text" name="lastname" id="lastname" maxlength="32" size="32" value="" /></td>
+</tr>
+		<script language="javascript" type="text/javascript"><!--
+		if (formvalidator){
+			formvalidator.addValidation("lastname","req","Please enter Last Name");
+		}
+		//--></script>
+		<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="email">Email:</label></span></b></td>
+<td><input type="text" name="email" id="email" maxlength="32" size="32" value="" /></td>
+</tr>
+		<script language="javascript" type="text/javascript"><!--
+		if (formvalidator){
+			formvalidator.addValidation("email","req","Please enter Email");
+		}
+		//--></script>
+		<tr>
+<td align="right" valign="middle"><b><span style="color: #000;"><label for="phone">Phone:</label></b></td>
+<td><input type="text" name="phone" id="phone" maxlength="32" size="32" value="" /></td>
+</tr>
+<tr><th colspan="2" align="center">Your Reservation</th></tr>
+<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="date">Date:</label></span></b></td>
+<td>	<script language="javascript"><!--
+	function validDate() {
+		var year = document.form.year[document.form.year.selectedIndex].value
+		var day = document.form.day[document.form.day.selectedIndex].value;
+		var monIndex = document.form.mon.selectedIndex;
+		var monArray = new Array( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 );
+		if ( year % 4 == 0 )
+			monArray[1]++;			
+		if ( day > monArray[monIndex] ) {
+			alert("Invalid date. Day is out of range for month/year.");
+			document.form.day.selectedIndex = 0;
+			document.form.day.focus();
+		}
+	}
+	//--></script>
+	<select name="mon" onchange="validDate();">
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4" selected="selected">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+</select> 
+<select name="day" onchange="validDate();">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17" selected="selected">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select> 
+<select name="year" onchange="validDate();">
+<option value="2007">2007</option>
+<option value="2008" selected="selected">2008</option>
+</select> 
+</td></tr>
+<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="subject">Subject:</label></span></b></td>
+<td><select id="subject" name="subject">
+<option value="1000ft Expedition">1000ft Expedition</option>
+<option value="1500ft Expedition">1500ft Expedition</option>
+<option value="2000ft Expedition">2000ft Expedition</option>
+<option value="Six-Gill Shark Expedition">Six-Gill Shark Expedition</option>
+<option value="Questions/Feedback">Questions/Feedback</option>
+<option value="Website">Website</option>
+</select></td></tr>
+<tr>
+<td align="right" valign="middle"><b><span class="reqd"><label for="message">Message:</label></span></b></td>
+<td><textarea rows="10" cols="45" name="message" id="message"></textarea></td>
+</tr>
+		<script language="javascript" type="text/javascript"><!--
+		if (formvalidator){
+			formvalidator.addValidation("message","req","Please enter Message");
+		}
+		//--></script>
+		<tr><td colspan="2">
+<input type="submit" name="submit" id="submit" value="Submit" /> <input type="reset" name="reset" id="reset" value="Reset" />
+</td></tr>
+</table></form></div>
+			</div>
+			<div id="footer" style="clear: both; padding-top: 5px;">
+				<hr />
+				<div id="footer_left">
+					Site design by <a href="http://www.thescubageek.com">TheScubaGeek.com</a>
+				</div>
+				
+				<div id="footer_right">
+					2005-2008 &copy; Roatan Institute of Deepsea Exploration
+				</div>				
+			</div>			
+	</div>
+
+</body>
+</html>

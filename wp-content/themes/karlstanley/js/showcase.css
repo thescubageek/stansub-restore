@@ -1,0 +1,294 @@
+/************************************************************************
+<> BEGIN SHOWCASE BASE
+*************************************************************************/
+.featured object{
+	z-index: 1;
+	position: relative;
+}
+
+.showcase_wrapper{
+	position: relative;
+	height: auto;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.showcase_inner_wrapper {
+	position: relative;
+	margin: 0px auto;
+}
+
+	.showcase, .featured, .fadeout{ 
+		height: 400px; 			
+	}
+	
+	.newsselect{
+		height: 400px; 
+    }
+	
+	.showcase {
+		position: relative;
+		width: 960px;
+		text-align: left;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+		
+	.showcase a{
+		display: block;
+		width:100%;
+		height:100%;
+	}
+	
+	.featured{
+		width: 960px;
+		position:absolute;
+		top:0;
+		left:0;
+		overflow: hidden;
+		display:none;
+	}
+	
+	.featured, .preloading{
+		background: transparent url('../images/preload.gif') center center no-repeat;
+	}
+    
+    * html .featured {	/** ie6 fix; background tiles and it looks like crap **/
+    	background: none;
+    }
+	
+	.featured img, .featured a img, .featured a:hover img {
+		padding: 0px;
+		border: none;
+	}
+    
+    .feature_excerpt{
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left:0;
+        z-index: 3;
+        padding:20px 30px 30px 30px;
+        font-size: 11.5px;
+        line-height:1.5em;
+        cursor: pointer;
+        width: 900px;
+	}	
+    
+    * html .feature_excerpt {	/** ie6 hack **/
+    	bottom: -2px;
+    }
+	
+	.showcase .featured_first {
+		display: block;
+	}
+	
+	.fadeout{
+		position:absolute;
+		width:200px;
+		display:block;
+		right:0px;
+		z-index: 4;
+	}
+	
+/*blockslider + fadeslider */
+.blockslider .featured, .fadeslider .featured{
+	width:100%;
+	border:none;
+	}
+
+.blockslider .feature_excerpt, .fadeslider .feature_excerpt{
+	display:none;
+}
+
+.js_active .blockslider .featured img, .js_active .fadeslider .featured img{
+	visibility: hidden;
+}
+
+/*accordion*/
+.accordion .featured{
+	position: absolute;
+	width: 720px;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	background-color: #fff;	/* bg colors in the base are a no-no, but otherwise the loading looks like crap */
+    behavior: url('PIE.htc');
+}
+
+.accordion .featured_first {
+	display: none;
+}
+
+.accordion .feature_excerpt, .accordion .position_excerpt{
+	width: 680px;
+}
+
+.accordion .sliderheading {
+
+}
+
+.accordion .heading_clone{
+	visibility: visible;
+	position: absolute;
+    display: block;
+	z-index: 5;
+	bottom:20px;
+	left:20px;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding:0;
+	margin: 0;
+}
+
+/*** slide controls ***/
+
+.slidecontrols{
+	position:absolute;
+	top: 465px;
+    right: 50%;
+    margin-right: -480px;
+	z-index: 10;
+}
+
+.slidecontrols a{
+	height:10px;
+	padding:2px 2px;
+	width:10px;
+	display:block;
+	cursor: pointer;
+	outline: none;
+	float:left;
+}
+
+/*newsslider*/
+
+.newsselect{
+	position: absolute;
+	overflow: hidden;
+	width: 240px;
+	right:0px;
+	top:0px;
+	z-index: 6;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+
+}
+
+.newsslider .newsItems{
+	position: absolute;
+	top:0;
+	left:0;
+    width: 100%;
+}
+
+
+.newsslider .feature_excerpt, .newsslider .position_excerpt{
+	width: 660px;
+}
+
+.newsselect .sliderheading{
+	font-size:13px;
+	font-weight: bold;
+	padding: 0;
+}
+
+.newsselect .single_item{
+	padding:15px 10px;
+	display: block;
+	text-decoration: none;
+	line-height: 1.3em;
+	height:auto;
+	width:100%;
+}
+
+.newsselect .sliderdate{
+	display:block;
+	font-size: 11px;
+}
+
+.sliderheading{
+	display:block;
+	font-size: 26px;
+	line-height: 22px;
+    font-weight: normal;	
+	letter-spacing: 0.4px;
+	padding-bottom: 0.5em;
+	font-family: "Trebuchet MS",Tahoma,Helvetica;
+}
+
+.slidercontent {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.sliderdate{
+	display:none;
+}
+
+.showcase a, .showcase a img, .showcase img, .showcase object{
+	text-decoration: none;
+	border:none;
+	outline: none;
+	padding: 0;
+}
+
+.showcase a:hover{
+	text-decoration: none;
+}
+
+.showcase .rel_pos{
+	position: relative;
+}
+
+/************************************************************************
+<> CONTENT FEATURED
+*************************************************************************/	
+
+.featured_content_wrapper {
+	padding: 4px 4px 25px 4px;
+	position: relative;
+	display: inline-block;
+}
+
+.featured_content  {
+	position:relative;
+}
+
+.featured img, .featured a img, .featured a:hover img
+{
+	padding: 0px;
+	border: none;
+}
+
+.featured_content ul, .featured_content li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.featured_content .featured_inside {
+	width: 610px;
+	height: 260px;
+}
+
+.featured_content .featured{
+	width:610px;
+	height:260px;
+	position: relative;
+}
+
+.featured_content .featured_first {
+	display: block;
+}
+
+.featured_content .slidecontrols {
+	bottom:-12px;
+	left:4px;
+	position:relative !important;
+	z-index:10;
+	top:auto;
+}

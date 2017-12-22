@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Stanley Submarines - Roatan, Honduras</title>
+<!-- style sheet -->
+<link rel="stylesheet" href="../general/template.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="../general/validator.js"></script>
+
+<!-- meta tags -->
+<meta name="author" content="Steve Craig - steve@thescubageek.com" />
+<meta name="description" content="Deep sea exploration aboard Karl Stanley's Idabel, the world's deepest tourest submarine, on Roatan, Honduras" />
+<meta name="keywords" content="karl stanley submarine roatan underwater deep sea aquatic life caribbean six gill shark chimera honduras exploration" />
+<!-- end meta tags -->
+</head>
+
+<body >
+	<div id="biggodeeper">GO DEEPER</div>
+	<div id="stanleysubs">stanleysubmarines.com</div>
+	<div id="menu">
+	<a href="../contact/index.php?lang=en">Contact Us</a><a href="../news/index.php?lang=en">News</a><a href="../videos/index.php?lang=en">Videos</a><a href="../photos/index.php?lang=en">Photos</a><a href="../faqs/index.php?lang=en">FAQs</a><a href="../expeditions/index.php?lang=en">Expeditions</a><a href="../terrain/index.php?lang=en">Terrain</a><a href="../life/index.php?lang=en">Aquatic Life</a><a href="../location/index.php?lang=en">Location</a><a href="../captain/index.php?lang=en">Captain</a><a href="../sub/index.php?lang=en">Submarine</a><a href="../main/index.php?lang=en">Home</a>	</div>
+
+	<div id="porthole">
+		<div id="porthole_overlay"></div>
+		<div id="depth_scale"></div>
+		<div id="porthole_frame"></div>
+	</div>
+
+	<div id="logo"><img src="../general/images/logo.gif" width="250" height="199" alt="Roatan Institute of Deepsea Exploration" border="0" /></div>
+		<div id="main">
+			<div id="body">
+<p class="title">The Terrain</p>
+
+<p align="center"><img src="images/poster.jpg" width="482" height="400" alt="Roatan's reef system" border="0" style="border: 3px double #fc0;" hspace="5" vspace="5" /></p>
+
+<p>Roatan's fringing reef system rises up from the Cayman Trench atop the Bonacca Ridge. The coral reef extends directly from the shoreline, fringing the perimeter of the island with a near-vertical wall . From 300 feet (90 meters) down to 1,200 feet, depending on the site, can be completely vertical. An example of this profile would be immediately to the east of Half Moon Bay where a dive boat broke up on the reef, and the largest piece of it is now perched on a small ledge at 860 feet. This typically marks the range where falling objects start to come to rest.</p>
+
+<p>Due to Roatan's geological shiftings, this includes enormous (sometimes more than 100 feet high) blocks of fossilized reef that have sheared off the wall. This creates a rich and varied terrain, one alternating with sandy patches, rock faces, caves, and crevices.</p>
+
+<p>The vertical section is also a very interesting area to explore, as sea level raising and dropping 450 feet through the ice ages has left fossilized reef that the raising waters have dissolved into delicate and bizarre formations.</p>
+
+			</div>
+			<div id="footer" style="clear: both; padding-top: 5px;">
+				<hr />
+				<div id="footer_left">
+					Site design by <a href="http://www.thescubageek.com">TheScubaGeek.com</a>
+				</div>
+				
+				<div id="footer_right">
+					2005-2008 &copy; Roatan Institute of Deepsea Exploration
+				</div>				
+			</div>			
+	</div>
+
+</body>
+</html>
